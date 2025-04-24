@@ -10,31 +10,40 @@
 
 <body>
     <nav class="menu">
-        <ul>
-            <li>Atrações</li>
-            <li>Aribabiba</li>
-            <li>Kaminda Mundi</li>
-            <li>Mistieri</li>
-            <li>Wild West</li>
-            <li>Infantasia</li>
+        <ul class="listaflex">
+            <li class="btatracoes">
+                <a href="">Atrações</a>
+                <ul class="listaAtracoes">
+                    <li><a href="/atracoes/aribabiba.html">Aribabiba</a></li>
+                    <li><a href="/atracoes/kamindamundi.html">Kaminda Mundi</a></li>
+                    <li><a href="/atracoes/mistieri.html">Mistieri</a></li>
+                    <li><a href="/atracoes/wildwest.html">Wild West</a></li>
+                    <li><a href="/atracoes/infantasia.html">Infantasia</a></li>
+                </ul>
+            </li>
 
-            <li>Ingressos</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <li><a href="">Ingressos</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contato</a></li>
         </ul>
     </nav>
 
     <img src="img/mapahopihari.jpeg" usemap="#image-map">
     <map name="image-map">
-        <area target="" alt="Aribabiba" title="Aribabiba" href="atracoes/aribabiba.html" coords="966,213,426,67" shape="rect">
-        <area target="" alt="Kaminda Mundi" title="Kaminda Mundi" href="atracoes/kamindamundi.html" coords="370,253,574,476" shape="rect">
-        <area target="" alt="Infantasia" title="Infantasia" href="atracoes/infantasia.html" coords="577,233,719,411" shape="rect">
-        <area target="" alt="Wild West" title="Wild West" href="atracoes/wildwest.html" coords="730,230,1184,464" shape="rect">
-        <area target="" alt="Mistieri" title="Mistieri" href="atracoes/mistieri.html" coords="92,67,368,358" shape="rect">
+        <area target="" alt="Aribabiba" title="Aribabiba" href="atracoes/aribabiba.html" coords="966,213,426,67"
+            shape="rect">
+        <area target="" alt="Kaminda Mundi" title="Kaminda Mundi" href="atracoes/kamindamundi.html"
+            coords="370,253,574,476" shape="rect">
+        <area target="" alt="Infantasia" title="Infantasia" href="atracoes/infantasia.html" coords="577,233,719,411"
+            shape="rect">
+        <area target="" alt="Wild West" title="Wild West" href="atracoes/wildwest.html" coords="730,230,1184,464"
+            shape="rect">
+        <area target="" alt="Mistieri" title="Mistieri" href="atracoes/mistieri.html" coords="92,67,368,358"
+            shape="rect">
     </map>
 
     <script>
-        window.addEventListener('DOMContentLoaded', ()=>{
+        window.addEventListener('DOMContentLoaded', () => {
             imageMapResize();
         })
     </script>
